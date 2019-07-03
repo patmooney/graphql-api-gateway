@@ -1,0 +1,29 @@
+{
+  "name": "graphql-api-gateway",
+  "version": "0.0.1",
+  "description": "yeah boi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patmooney/graphql-api-gateway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patmooney/graphql-api-gateway/issues"
+  },
+  "homepage": "https://github.com/patmooney/graphql-api-gateway#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "@apollo/gateway": "^0.7.0-alpha.3",
+    "apollo-server": "^2.6.7",
+    "graphql": "^14.4.1"
+  }
+}
